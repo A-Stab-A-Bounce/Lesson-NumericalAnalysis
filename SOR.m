@@ -1,5 +1,5 @@
 %successive over relaxation method
-%written by Zhang, in Dec,2018
+%written by Zhang, in Dec. 2018
 
 function SOR(a,b,x)
 epsi = 1e-7;
