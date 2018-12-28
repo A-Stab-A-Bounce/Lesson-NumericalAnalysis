@@ -1,5 +1,5 @@
 function Adams(fun,solution,ori,domain)
-%written by Zhang, in Dec. 2018
+% written by Zhang, in Dec. 2018
 % Dy=fun, 'solution' is the solution(func of x) of the ode, ori=[xi,yi],
 % domain=[initial final], in which initial = x1
 n = 4;
