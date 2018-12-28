@@ -1,5 +1,5 @@
 function RungeKutta(fun,solution,ori,domain)
-%written by Zhang, in Dec. 2018
+% written by Zhang, in Dec. 2018
 % Dy=fun, 'solution' is the solution(func of x) of the ode, ori=[xi,yi],
 % domain=[initial final], in which initial = x1
 n = 4;
@@ -26,8 +26,3 @@ ok(n) = 0;
 for i = 1:n
     fprintf('h=%f,  err=%f  ok=%f\n',h(i),err(i),ok(i));
 end
-% input:
-% fun = @(x,y) - x.^2 .* y.^3;
-% solution = @(x) 3/(1 + x.^3);
-% ori=[0,3];
-% domain=[0,1.5];
